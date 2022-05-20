@@ -6,7 +6,7 @@ myURL1 = "https://disqus.com"
 paginate = "6"
 summaryLength = "10"
 theme = "educenter-hugo"
-title = "Cloud Native Hub"
+title = "Dstack"
 [Languages.en]
 contentDir = "content/english"
 copyright = "Copyright &copy; 2020 Dstack All Rights Reserved；Powerd by Hugo"
