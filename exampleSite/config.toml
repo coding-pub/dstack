@@ -1,4 +1,4 @@
-baseURL = "https://cloudnativehub.org"
+baseURL = "https://dstack.com.cn"
 defaultContentLanguage = "zh"
 disableLanguages = []
 disqusShortname = "educenter"
@@ -9,14 +9,14 @@ theme = "educenter-hugo"
 title = "Cloud Native Hub"
 [Languages.en]
 contentDir = "content/english"
-copyright = "Copyright &copy; 2020 Cloud Native Hub All Rights Reserved；Powerd by Hugo"
+copyright = "Copyright &copy; 2020 Dstack All Rights Reserved；Powerd by Hugo"
 home = "Home"
 languageCode = "en-us"
 languageName = "English"
 weight = 2
 [Languages.zh]
 contentDir = "content/chinese"
-copyright = "Copyright &copy; 2020 云原生加速器 保留所有权利；基于 Hugo 主题构建"
+copyright = "Copyright &copy; 2020 DStack 保留所有权利；"
 home = "主页"
 languageCode = "zh-zh"
 languageName = "中文"
@@ -79,8 +79,8 @@ weight = 5
 [Languages.zh.params]
 URL = "http://www.baidu.com/"
 address = "请扫描下面二维码加我微信"
-email = "hi@cloudnativehub.com"
-wechat = "CloudNativeHub"
+email = "hi@dstack.com.cn"
+wechat = "hi_dstack"
 [[menu.footer]]
 URL = "teacher"
 name = "teacher"
