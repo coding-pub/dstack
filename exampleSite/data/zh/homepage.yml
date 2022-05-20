@@ -1,0 +1,153 @@
+################################# Slider #####################################
+slider:
+  enable : true
+  bg_image : "images/banner/banner-1.jpg"
+  slider_item:
+    # slider item loop
+    - title : "无服务是云计算的未来"
+      content : "随着CIO为追求更大的业务敏捷性进一步抽象化基础架构和运营，无服务器标志着云计算之旅的下一个阶段。"
+      animation_in : "left"
+      animation_out : "right"
+      # available animation : left, right, up, down
+      button:
+        enable : true
+        label : "开始了解"
+        link : "contact"
+
+    # slider item loop
+    - title : "服务网格是扩展容器的未来"
+      content : "微服务对于提高开发速度非常有用，但是这些体系结构的复杂性在于微服务所依赖的服务到服务通信（Servicemesh）。"
+      animation_in : "left"
+      animation_out : "right"
+      # available animation : left, right, up, down
+      button:
+        enable : true
+        label : "开始了解"
+        link : "contact"
+
+    # slider item loop
+    - title : "边缘计算是通信网络的未来"
+      content : "Edge computing（边缘计算）正在改变世界上数百万台设备处理，处理和传递数据的方式。"
+      animation_in : "left"
+      animation_out : "right"
+      # available animation : left, right, up, down
+      button:
+        enable : true
+        label : "开始了解"
+        link : "contact"
+
+    # slider item loop
+    - title : "人工智能让未来已经来临"
+      content : "许多互联网巨头都展示了如何将基于云原生的AI / ML应用于解决以前难以解决的问题"
+      animation_in : "left"
+      animation_out : "right"
+      # available animation : left, right, up, down
+      button:
+        enable : true
+        label : "开始了解"
+        link : "contact"
+############################### Banner feature ###############################
+banner_feature:
+  enable : true
+  image : "images/banner/banner-feature.png"
+  feature_item:
+    # feature item loop
+    - name : "无服务"
+      #icon : "ti-book" # icon pack : https://themify.me/themify-icons
+      images1 : "images/banner/serverless.png"
+      content : "无服务器框架可帮助您以更少的开销和成本构建无服务器应用。"
+
+    # feature item loop
+    - name : "服务网格"
+      #icon : "ti-blackboard" # icon pack : https://themify.me/themify-icons
+      images1 : "images/banner/servicemesh.png"
+      content : "服务网格是致力于解决服务间通讯的基础设施层。"
+
+    # feature item loop
+    - name : "边缘计算"
+      #icon : "ti-agenda" # icon pack : https://themify.me/themify-icons
+      images1 : "images/banner/edgecomputing.png"
+      content : "边缘计算是一种分布式计算范例，它使计算和数据存储更接近需要的位置。"
+
+    # feature item loop
+    - name : "人工智能"
+      #icon : "ti-write" # icon pack : https://themify.me/themify-icons
+      images1 : "images/banner/ai.png"
+      content : "人工智能将通过云原生技术加速从研究到企业规模生产的机器学习。"
+
+
+############################## about ##################################
+about:
+  enable : true
+  title : "关于"
+  image : "images/about/about-us.jpg"
+  content : "云原生正在吞噬世界，云原生加速器是针对企业使用云原生技术的加速，专注于与云原生相关的技术，如无服务，服务网格，边缘计算，人工智能等"
+  button:
+    enable : true
+    label : "了解详情"
+    link : "about"
+
+
+############################# Course ################################
+course:
+  enable : true
+  title : "我的焦点"
+  # course item comes from "content/**/course" folder.
+
+########################## Call to action ############################
+cta:
+  enable : true
+  subtitle : "单击以加入高级研讨会"
+  title : "点击加入云原生社区"
+  button:
+    enable : true
+    label : "加入我们"
+    link : "contact"
+
+
+######################## Success story #############################
+success_story:
+  enable : true
+  bg_image : "images/backgrounds/success-story.jpg"
+  title : "快速开始"
+  content : "良好的开头是成功的一半。如果你需要在本地开发云原生应用程序，搭建一套最新版的高可用的Kubernetes集群是很有必要的，现在开始吧"
+  # video link
+  video_link : "https://www.youtube.com/watch?v=ResipmZmpDU"
+
+
+############################# event ################################
+event:
+  enable : true
+  title : "最新活动"
+  # event item comes from "content/**/event" folder.
+
+  
+########################### funfacts ############################
+funfacts:
+  enable : true
+  funfact_item:
+    # funfact item loop
+    - name : "出版书籍"
+      count : "60"
+
+    # funfact item loop
+    - name : "举办活动"
+      count : "50"
+
+    # funfact item loop
+    - name : "参与演讲"
+      count : "1000"
+
+    # funfact item loop
+    - name : "社区成员"
+      count : "1400"
+
+# funfact is for about page
+
+
+
+############################# blog ################################
+blog:
+  enable : true
+  title : "最新博客"
+  # blog item comes from "content/**/blog" folder.

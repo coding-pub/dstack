@@ -1,0 +1,13 @@
+---
+baseurl: "/"
+DefaultContentLanguage: "zh-cn"
+hasCJKLanguage: true
+languageCode: "zh-cn"
+title: "abcstack"
+theme: "educenter"
+metaDataFormat: "yaml"
+algolia:
+  index: "abcstack "
+  key: "499fc330c5e6402e2e59ed983307554e"
+  appID: "D931PVN12C"
+---

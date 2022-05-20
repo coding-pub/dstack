@@ -1,0 +1,218 @@
+baseURL = "https://cloudnativehub.org"
+defaultContentLanguage = "zh"
+disableLanguages = []
+disqusShortname = "educenter"
+myURL1 = "https://disqus.com"
+paginate = "6"
+summaryLength = "10"
+theme = "educenter-hugo"
+title = "Cloud Native Hub"
+[Languages.en]
+contentDir = "content/english"
+copyright = "Copyright &copy; 2020 Cloud Native Hub All Rights Reserved；Powerd by Hugo"
+home = "Home"
+languageCode = "en-us"
+languageName = "English"
+weight = 2
+[Languages.zh]
+contentDir = "content/chinese"
+copyright = "Copyright &copy; 2020 云原生加速器 保留所有权利；基于 Hugo 主题构建"
+home = "主页"
+languageCode = "zh-zh"
+languageName = "中文"
+weight = 1
+[[Languages.zh.menu.footer]]
+URL = "teacher"
+name = "老师"
+[[Languages.zh.menu.footer]]
+URL = "notice"
+name = "更新"
+[[Languages.zh.menu.footer]]
+URL = "event"
+name = "事件"
+[[Languages.zh.menu.footer]]
+URL = "scholarship"
+name = "课程"
+[[Languages.zh.menu.footer]]
+URL = "research"
+name = "研究"
+[[Languages.zh.menu.main]]
+URL = "about"
+name = "关于"
+weight = 1
+[[Languages.zh.menu.main]]
+URL = "course"
+name = "焦点"
+weight = 2
+[[Languages.zh.menu.main]]
+hasChildren = true
+name = "更多"
+weight = 3
+[[Languages.zh.menu.main]]
+URL = "teacher"
+name = "老师"
+parent = "更多"
+[[Languages.zh.menu.main]]
+URL = "notice"
+name = "更新"
+parent = "更多"
+[[Languages.zh.menu.main]]
+URL = "event"
+name = "事件"
+parent = "更多"
+[[Languages.zh.menu.main]]
+URL = "scholarship"
+name = "课程"
+parent = "更多"
+[[Languages.zh.menu.main]]
+URL = "research"
+name = "研究"
+parent = "更多"
+[[Languages.zh.menu.main]]
+URL = "blog"
+name = "博客"
+weight = 4
+[[Languages.zh.menu.main]]
+URL = "contact"
+name = "联系"
+weight = 5
+[Languages.zh.params]
+URL = "http://www.baidu.com/"
+address = "请扫描下面二维码加我微信"
+email = "hi@cloudnativehub.com"
+wechat = "CloudNativeHub"
+[[menu.footer]]
+URL = "teacher"
+name = "teacher"
+[[menu.footer]]
+URL = "notice"
+name = "notice"
+[[menu.footer]]
+URL = "event"
+name = "event"
+[[menu.footer]]
+URL = "scholarship"
+name = "scholarship"
+[[menu.footer]]
+URL = "research"
+name = "research"
+[[menu.main]]
+URL = "about"
+name = "About"
+weight = 1
+[[menu.main]]
+URL = "course"
+name = "course"
+weight = 2
+[[menu.main]]
+hasChildren = true
+name = "Pages"
+weight = 3
+[[menu.main]]
+URL = "teacher"
+name = "teacher"
+parent = "Pages"
+[[menu.main]]
+URL = "notice"
+name = "notice"
+parent = "Pages"
+[[menu.main]]
+URL = "event"
+name = "event"
+parent = "Pages"
+[[menu.main]]
+URL = "scholarship"
+name = "scholarship"
+parent = "Pages"
+[[menu.main]]
+URL = "research"
+name = "research"
+parent = "Pages"
+[[menu.main]]
+URL = "blog"
+name = "blog"
+weight = 4
+[[menu.main]]
+URL = "contact"
+name = "Contact"
+weight = 5
+[params]
+URL = "https://twitter.com/abcstack/"
+address = "Follow Me on Twitter"
+author = "Themefisher"
+contact_form_action = "#"
+description = "Cloud Native Hub"
+email = "hi@cloudnativehub.com"
+google_analitycs_id = ""
+logo = "images/logo.png"
+logo1 = "images/logo1.png"
+wechat = "CloudNativeHub"
+top_header = true
+
+[params.contact]
+contact_name = "Your Name"
+contact_email = "Your Email"
+contact_subject = "Subject"
+contact_message = "Your Message"
+
+[Languages.zh.params.contact]
+contact_name = "怎么称呼您"
+contact_Email = "您的邮箱"
+contact_Subject = "邮件主题"
+contact_Message = "邮件正文"
+
+[params.map]
+enable = true
+gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"
+map_latitude = "51.5223477"
+map_longitude = "-0.1622023"
+map_marker = "images/marker.png"
+[[params.plugins.css]]
+link = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+link = "plugins/slick/slick.css"
+[[params.plugins.css]]
+link = "plugins/animate/animate.css"
+[[params.plugins.css]]
+link = "plugins/venobox/venobox.css"
+[[params.plugins.css]]
+link = "plugins/themify-icons/themify-icons.css"
+[[params.plugins.js]]
+link = "plugins/jQuery/jquery.min.js"
+[[params.plugins.js]]
+link = "plugins/bootstrap/bootstrap.min.js"
+[[params.plugins.js]]
+link = "plugins/slick/slick.min.js"
+[[params.plugins.js]]
+link = "plugins/venobox/venobox.min.js"
+[[params.plugins.js]]
+link = "plugins/filterizr/jquery.filterizr.min.js"
+[[params.plugins.js]]
+link = "plugins/google-map/gmap.js"
+[params.preloader]
+enable = false
+preloader = "images/preloader.gif"
+[params.subscription]
+enable = true
+mailchimp_form_action = "https://gmail.us4.list-manage.com/subscribe/post?u=463ee871f45d2d93748e77cad&amp;id=a0a2c6d074"
+mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074"
+[[params.social]]
+icon = "ti-facebook"
+link = "https://www.facebook.com/CloudNativeHub"
+title = "facebook"
+[[params.social]]
+icon = "ti-twitter-alt"
+link = "https://twitter.com/CloudNativeHub"
+title = "twitter"
+[[params.social]]
+icon = "ti-youtube"
+link = "https://www.youtube.com/channel/UCC0nKPdBP9AtIsDRiUZdKkw?view_as=subscriber"
+title = "youtube"
+[[params.social]]
+icon = "ti-github"
+link = "https://github.com/cloudnativehub"
+title = "github"
+[[params.social]]
+icon = "ti-linkedin"
+link = "https://www.linkedin.com/in/cloud-native-hub/"
+title = "linkedin"

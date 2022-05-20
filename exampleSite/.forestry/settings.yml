@@ -1,0 +1,225 @@
+---
+new_page_extension: md
+auto_deploy: false
+admin_path: ''
+webhook_url: 
+sections:
+- type: heading
+  label: Blog Post
+- type: directory
+  path: exampleSite/content/english/blog
+  label: Post (en)
+  create: documents
+  match: "**/*"
+  templates:
+  - post
+- type: directory
+  path: exampleSite/content/chinese/blog
+  label: Post (zh)
+  create: documents
+  match: "**/*"
+  templates:
+  - post
+- type: heading
+  label: Author
+- type: directory
+  path: exampleSite/content/english/author
+  label: Author (en)
+  create: documents
+  match: "**/*"
+  templates:
+  - author
+- type: directory
+  path: exampleSite/content/chinese/author
+  label: Author (zh)
+  create: documents
+  match: "**/*"
+  templates:
+  - author
+- type: heading
+  label: Course
+- type: directory
+  path: exampleSite/content/english/course
+  label: Course (en)
+  create: documents
+  match: "**/*"
+  templates:
+  - course
+- type: directory
+  path: exampleSite/content/chinese/course
+  label: Course (zh)
+  create: documents
+  match: "**/*"
+  templates:
+  - course
+- type: heading
+  label: Notice
+- type: directory
+  path: exampleSite/content/english/notice
+  label: Notice (en)
+  create: all
+  match: "**/*"
+  templates:
+  - notice
+- type: directory
+  path: exampleSite/content/chinese/notice
+  label: Notice (zh)
+  create: all
+  match: "**/*"
+  templates:
+  - notice
+- type: heading
+  label: Teacher
+- type: directory
+  path: exampleSite/content/english/teacher
+  label: Teacher (en)
+  create: all
+  match: "**/*"
+  templates:
+  - teacher
+- type: directory
+  path: exampleSite/content/chinese/teacher
+  label: Teacher (zh)
+  create: all
+  match: "**/*"
+  templates:
+  - teacher
+- type: heading
+  label: Event
+- type: directory
+  path: exampleSite/content/english/event
+  label: Event (en)
+  create: all
+  match: "**/*"
+  templates:
+  - event
+- type: directory
+  path: exampleSite/content/chinese/event
+  label: Event (zh)
+  create: all
+  match: "**/*"
+  templates:
+  - event
+- type: heading
+  label: Research
+- type: directory
+  path: exampleSite/content/english/research
+  label: Research (en)
+  create: all
+  match: "**/*"
+  templates:
+  - research
+- type: directory
+  path: exampleSite/content/chinese/research
+  label: Research (zh)
+  create: all
+  match: "**/*"
+  templates:
+  - research
+- type: heading
+  label: Scholarship
+- type: directory
+  path: exampleSite/content/english/scholarship
+  label: Scholarship (en)
+  create: all
+  match: "**/*"
+  templates:
+  - scholarship
+- type: directory
+  path: exampleSite/content/chinese/scholarship
+  label: Scholarship (zh)
+  create: all
+  match: "**/*"
+  templates:
+  - scholarship
+- type: heading
+  label: Others Pages
+- type: directory
+  path: exampleSite/content/english/about
+  label: About (en)
+  create: none
+  match: "*"
+- type: directory
+  path: exampleSite/content/chinese/about
+  label: About (zh)
+  create: none
+  match: "*"
+- type: directory
+  path: exampleSite/content/english/contact
+  label: Contact (en)
+  create: none
+  match: "*"
+- type: directory
+  path: exampleSite/content/chinese/contact
+  label: Contact (zh)
+  create: none
+  match: "*"
+- type: directory
+  path: exampleSite/content/english/pages
+  label: Created Pages (en)
+  create: documents
+  match: "**/*"
+  templates:
+  - new-page
+- type: directory
+  path: exampleSite/content/chinese/pages
+  label: Created Pages (zh)
+  create: all
+  match: "**/*"
+  templates:
+  - new-page
+- type: directory
+  path: exampleSite/content/english
+  label: All Pages (en)
+  create: all
+  match: "**/*"
+  templates:
+  - new-page
+- type: directory
+  path: exampleSite/content/chinese
+  label: All Pages (zh)
+  create: all
+  match: "**/*"
+  templates:
+  - new-page
+- type: heading
+  label: Data
+- type: directory
+  path: exampleSite/data/en
+  label: Data (en)
+  create: all
+  match: "**/*"
+- type: directory
+  path: exampleSite/data/zh
+  label: Data (zh)
+  create: all
+  match: "**/*"
+- type: directory
+  path: exampleSite/i18n
+  label: i18n
+  create: documents
+  match: "**/*"
+- type: heading
+  label: Configuration
+- type: directory
+  path: exampleSite
+  label: Configuration
+  create: all
+  match: "*.toml"
+  new_doc_ext: toml
+upload_dir: exampleSite/static/images
+public_path: "/images"
+front_matter_path: ''
+use_front_matter_path: false
+file_template: ":filename:"
+build:
+  preview_env:
+  - HUGO_ENV=staging
+  - HUGO_VERSION=0.58.2
+  preview_output_directory: public
+  preview_docker_image: forestryio/hugo:latest
+  mount_path: "/srv"
+  working_dir: "/srv"
+  instant_preview_command: hugo server -D -E -F --port 8080 --bind 0.0.0.0 --renderToDisk
+    -d public
+version: 0.58.2
