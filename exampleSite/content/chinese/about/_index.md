@@ -6,7 +6,7 @@ bg_image: "images/backgrounds/page-title.jpg"
 # about image
 image: "images/about/about-page.jpg"
 # meta description
-description : "云原生加速器（ABCSTACK） 的简介"
+description : "开发者平台（DSTACK） 的简介"
 ---
 
 ## 简介

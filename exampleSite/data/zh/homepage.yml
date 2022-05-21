@@ -81,7 +81,7 @@ about:
   enable : true
   title : "关于"
   image : "images/about/about-us.jpg"
-  content : "云原生正在吞噬世界，云原生加速器是针对企业使用云原生技术的加速，专注于与云原生相关的技术，如无服务，服务网格，边缘计算，人工智能等"
+  content : "DSTACK是由多度科技（一切为了开发者）提供的开发者平台，该平台提供一整套开发者解决方案，如无服务，服务网格，边缘计算，人工智能，IAC等"
   button:
     enable : true
     label : "了解详情"
